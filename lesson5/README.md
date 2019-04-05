@@ -195,5 +195,6 @@ setData(): 设置data的属性并强制更新
     expect(wrapper.vm.foo).to.equal('bar')
   })
 })
-  ```
+```
+
 [回到首页](../README.md/#前端测试教程)

@@ -73,4 +73,5 @@ files: [
 + const expect = chai.expect;
 ```
 保存文件，karma自动执行测试，去浏览器刷新debug页面，发现报错消失，测试通过
+
 [回到首页](../README.md/#前端测试教程)

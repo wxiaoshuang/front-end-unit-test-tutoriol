@@ -7,4 +7,3 @@
 * lesson4: [mocha + chai + karma](https://github.com/wxiaoshuang/front-end-unit-test-tutoriol/blob/master/lesson4/README.md)
 * lesson5: [vue unit test](https://github.com/wxiaoshuang/front-end-unit-test-tutoriol/blob/master/lesson5/README.md)
 * lesson6: [travis CI](https://github.com/wxiaoshuang/front-end-unit-test-tutoriol/blob/master/lesson6/README.md)
-[回到顶部](#前端测试教程)
