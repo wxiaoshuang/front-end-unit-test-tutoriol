@@ -64,3 +64,25 @@ describe('测试应该5000毫秒后结束', function () {
 })
 ```
 `cd hello-mocah`, 执行`mocha test/async.test.js`命令,报错了 `Error: Timeout of 2000ms exceeded`, 这是因为Mocha默认每个测试用例最多执行2000毫秒， 所以我们执行异步代码的时候需要用-t或--timeout参数指定超时门槛，现在我们执行`mocha -t 5000 test/async.test.js`
+最后我们来了解一下Mocha的钩子
+```javascript
+describe('钩子说明', function() {
+
+  before(function() {
+    // 在本区块的所有测试用例之前执行
+  });
+
+  after(function() {
+    // 在本区块的所有测试用例之后执行
+  });
+
+  beforeEach(function() {
+    // 在本区块的每个测试用例之前执行
+  });
+
+  afterEach(function() {
+    // 在本区块的每个测试用例之后执行
+  });
+
+});
+```
