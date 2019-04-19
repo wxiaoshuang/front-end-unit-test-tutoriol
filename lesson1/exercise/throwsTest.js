@@ -1,4 +1,4 @@
-var assert = require('assert').strict
+var assert = require('assert')
 function fn() {
     xxx
 }

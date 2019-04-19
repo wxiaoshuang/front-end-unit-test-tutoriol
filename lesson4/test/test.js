@@ -1,5 +1,5 @@
-const expect = require('chai').expect 
-// const expect = chai.expect;
+// const expect = require('chai').expect 
+const expect = chai.expect;
 describe('jQuery', function () {
     it('expect able to have jQuery', function () {
       if (!window.jQuery) {

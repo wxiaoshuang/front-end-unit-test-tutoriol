@@ -1,4 +1,4 @@
-var assert = require('assert').strict
+var assert = require('assert')
 let obj1 = {
     a: {
         b: 1

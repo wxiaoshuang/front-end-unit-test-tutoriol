@@ -1,4 +1,4 @@
-var assert = require('assert').strict
+var assert = require('assert')
 let arr = [1, 2, 3, 4]
 let number1 = 10
 let number2 = 2
